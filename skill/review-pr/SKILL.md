@@ -43,9 +43,9 @@ When `$ARGUMENTS` is provided, it indicates the name of the base branch using th
 
 Example:
 
-If `$ARGUMENTS` is `release.2026.1.1`, the base branch will be:
+If `$ARGUMENTS` is `branch-name`, the base branch will be:
 
-`release/2026/release.2026.1.1`
+`release/2026/branch-name`
 
 The current branch must then be compared against that branch.
 If no argument is provided, automatically determine the most appropriate base branch using the Git history and available branches.
