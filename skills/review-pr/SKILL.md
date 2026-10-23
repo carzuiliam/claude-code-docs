@@ -1,13 +1,7 @@
-# SKILL.md
-
 ---
-
 name: review-pr
-
 description: Reviews the changes in the current branch against its base branch and identifies relevant issues without modifying the code.
-
 disable-model-invocation: true
-
 ---
 
 # Review Pull Request

@@ -1,13 +1,7 @@
-# SKILL.md
-
 ---
-
 name: move-branch
-
 description: Recreates the current branch from a different base branch while preserving its changes and leaving them uncommitted.
-
 disable-model-invocation: true
-
 ---
 
 # Recreate Branch

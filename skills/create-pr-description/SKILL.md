@@ -1,13 +1,7 @@
-# SKILL.md
-
 ---
-
 name: create-pr-description
-
 description: Generates a Pull Request description based on the changes in the current branch without creating the PR.
-
 disable-model-invocation: true
-
 ---
 
 # Generate Pull Request Description
@@ -56,4 +50,3 @@ The generated file must contain:
 * DO NOT modify source code files.
 * DO NOT invent information that cannot be determined from the code, commits, or diff.
 * The only file this skill may create or modify is `.pull-request/[CURRENT_BRANCH_NAME].md`.
-* 
