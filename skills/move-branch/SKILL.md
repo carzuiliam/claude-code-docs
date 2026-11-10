@@ -28,15 +28,13 @@ Preserve only the changes introduced by the current branch and apply them to a n
 
 `<current-base> <destination-base>`
 
-Each argument represents a release branch using the following format:
-
-`release/[CURRENT_YEAR]/<branch-name>`
+Each argument must be the full branch name, used exactly as provided.
 
 Example:
 
 If `$ARGUMENTS` is:
 
-`release.2026.1.1.p1 release.2026.1.1.p2`
+`release/2026/release.2026.1.1.p1 release/2026/release.2026.1.1.p2`
 
 The current base branch will be:
 
